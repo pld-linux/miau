@@ -5,8 +5,9 @@ Version:	0.5.3
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
-Source0:	http://dl.sf.net/miau/%{name}-%{version}.tar.bz2
+Source0:	http://dl.sourceforge.net/miau/%{name}-%{version}.tar.bz2
 # Source0-md5:	bdc3b3430197fb63f8842c115e7c38b3
+URL:		http://miau.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -31,7 +32,7 @@ podobn± do proxy HTTP, ale do sieci IRC.
 Najwiêksza ró¿nica miêdzy proxy HTTP a miau (pomijaj±c fakt, ¿e to
 zupe³nie inne protoko³y) to nietracenie po³±czenia do serwera po
 od³±czeniu siê klienta od bramkarza. W ten sposób pseudonim dalej
-instnieje na serwerze i nie mo¿e byæ zajêty przez inne osoby. W
+istnieje na serwerze i nie mo¿e byæ zajêty przez inne osoby. W
 przypadku stracenia pseudonimu przy netsplicie lub innych
 zak³óceniach, miau bêdzie automatycznie próbowa³ go odzyskaæ.
 
@@ -59,7 +60,8 @@ której uruchomiony zosta³ bramkarz.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -69,7 +71,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %postun
 [ ! -x /usr/sbin/fix-info-dir ] || /usr/sbin/fix-info-dir -c %{_infodir} >/dev/null 2>&1
-
 
 %files
 %defattr(644,root,root,755)
