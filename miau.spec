@@ -77,4 +77,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README TODO misc/miaurc
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/*.info*
-%{_mandir}/man1/miau.1.gz
+%{_mandir}/man1/miau.1*
