@@ -1,12 +1,12 @@
 Summary:	Small but quite featured IRC-bouncer
 Summary(pl):	Ma³y, ale dobrze wyposa¿ony ircowy bramkarz
 Name:		miau
-Version:	0.5.3
+Version:	0.5.4
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/miau/%{name}-%{version}.tar.bz2
-# Source0-md5:	bdc3b3430197fb63f8842c115e7c38b3
+# Source0-md5:	4f4f74e3e271d51d184c21871b09600f
 URL:		http://miau.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -77,3 +77,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog README TODO misc/miaurc
 %attr(755,root,root) %{_bindir}/*
 %{_infodir}/*.info*
+%{_mandir}/man1/miau.1.gz
