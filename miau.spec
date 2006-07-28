@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
+rm -f $RPM_BUILD_ROOT%{_docdir}/miau/examples/miaurc
+rm -f $RPM_BUILD_ROOT%{_datadir}/info/dir
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
