@@ -1,5 +1,5 @@
 Summary:	Small but quite featured IRC-bouncer
-Summary(pl):	Ma³y, ale dobrze wyposa¿ony ircowy bramkarz
+Summary(pl.UTF-8):   MaÅ‚y, ale dobrze wyposaÅ¼ony ircowy bramkarz
 Name:		miau
 Version:	0.6.2
 Release:	1
@@ -25,20 +25,20 @@ Some people may also like the fact that when using bouncer, your
 hostname appearing in IRC is the one of the machine the bouncer is
 running at, not the one you are IRCing from.
 
-%description -l pl
-Miau jest ma³ym, lecz dobrze wyposa¿onym ircowym bramkarzem - us³ug±
-podobn± do proxy HTTP, ale do sieci IRC.
+%description -l pl.UTF-8
+Miau jest maÅ‚ym, lecz dobrze wyposaÅ¼onym ircowym bramkarzem - usÅ‚ugÄ…
+podobnÄ… do proxy HTTP, ale do sieci IRC.
 
-Najwiêksza ró¿nica miêdzy proxy HTTP a miau (pomijaj±c fakt, ¿e to
-zupe³nie inne protoko³y) to nietracenie po³±czenia do serwera po
-od³±czeniu siê klienta od bramkarza. W ten sposób pseudonim dalej
-istnieje na serwerze i nie mo¿e byæ zajêty przez inne osoby. W
+NajwiÄ™ksza rÃ³Å¼nica miÄ™dzy proxy HTTP a miau (pomijajÄ…c fakt, Å¼e to
+zupeÅ‚nie inne protokoÅ‚y) to nietracenie poÅ‚Ä…czenia do serwera po
+odÅ‚Ä…czeniu siÄ™ klienta od bramkarza. W ten sposÃ³b pseudonim dalej
+istnieje na serwerze i nie moÅ¼e byÄ‡ zajÄ™ty przez inne osoby. W
 przypadku stracenia pseudonimu przy netsplicie lub innych
-zak³óceniach, miau bêdzie automatycznie próbowa³ go odzyskaæ.
+zakÅ‚Ã³ceniach, miau bÄ™dzie automatycznie prÃ³bowaÅ‚ go odzyskaÄ‡.
 
-Niektórym mo¿e siê równie¿ spodobaæ, ¿e nazwa hosta pojawiaj±ca siê na
-ircu nie jest nazw± maszyny z której siê ³±cz±, lecz nazw± maszyny na
-której uruchomiony zosta³ bramkarz.
+NiektÃ³rym moÅ¼e siÄ™ rÃ³wnieÅ¼ spodobaÄ‡, Å¼e nazwa hosta pojawiajÄ…ca siÄ™ na
+ircu nie jest nazwÄ… maszyny z ktÃ³rej siÄ™ Å‚Ä…czÄ…, lecz nazwÄ… maszyny na
+ktÃ³rej uruchomiony zostaÅ‚ bramkarz.
 
 %prep
 %setup -q
