@@ -1,5 +1,5 @@
 Summary:	Small but quite featured IRC-bouncer
-Summary(pl.UTF-8):   Mały, ale dobrze wyposażony ircowy bramkarz
+Summary(pl.UTF-8):	Mały, ale dobrze wyposażony ircowy bramkarz
 Name:		miau
 Version:	0.6.2
 Release:	1
