@@ -2,7 +2,7 @@ Summary:	Small but quite featured IRC-bouncer
 Summary(pl.UTF-8):	Mały, ale dobrze wyposażony ircowy bramkarz
 Name:		miau
 Version:	0.6.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Networking/Utilities
 Source0:	http://dl.sourceforge.net/miau/%{name}-%{version}.tar.bz2
